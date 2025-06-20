@@ -27,7 +27,7 @@ const Photo = () => {
           className="relative z-10 w-[280px] h-[280px] md:w-[320px] md:h-[320px] xl:w-[400px] xl:h-[400px] rounded-full overflow-hidden border-4 border-[#3ba8ae]/30"
         >
           <Image 
-            src="/assets/myfoto.jpg" 
+            src="/assets/profile.jpg" 
             alt="Innocent Ndayizeye" 
             fill
             sizes="(max-width: 768px) 280px, (max-width: 1200px) 320px, 400px"

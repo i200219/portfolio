@@ -25,8 +25,8 @@ const projects = [
   {
     name: "Portfolio Website",
     image: "/images/project1.png",
-    github: "https://github.com/your-repo/portfolio",
-    demo: "https://your-portfolio.com",
+    github: "https://github.com/i200219/change-impact-nexus",
+    demo: "https://github.com/i200219/change-impact-nexus",
     description: "A modern portfolio website built with Next.js and Tailwind CSS to showcase my projects and skills.",
     technologies: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
     category: "Web Development"

@@ -8,6 +8,8 @@ import { FileDownIcon } from "lucide-react";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 import { motion } from "framer-motion";
+import { CldUploadButton } from 'next-cloudinary';
+ 
 
 export default function Home() {
   const [cvInfo, setCvInfo] = useState(null);
@@ -58,8 +60,10 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="text-center xl:text-left order-2 xl:order-none"
           >
+            <CldUploadButton uploadPreset="portoflio" className="hidden"/>
             <div className="inline-block px-4 py-1 bg-[#3ba8ae]/10 rounded-full mb-4">
               <span className="text-[#3ba8ae] font-medium">Software Developer</span>
+              
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
